@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calcu.css">
+</head>
+<body>
+<div class="calculator">
+<div class="display">
+<div class="keys">	
+<div id="head"><h1>FRENCH-CULATOR</h1></div>
+<input type="button" class="calcu" value="C" onclick="javascript:c();"> <input type="text" readonly="" id="screen">
+
+<p>
+	<input type="button" class="button" id="but" value="7" onclick="javascript:addNumber(7);"> 
+	<input type="button" class="button" id="but" value="8" onclick="javascript:addNumber(8);">
+	<input type="button" class="button" id="but" value="9" onclick="javascript:addNumber(9);">
+	<input type="button" class="button" id="but" value="+" onclick="javascript:addOperator('+');">
+</p>
+<p>
+	<input type="button" class="button" id="but" value="4" onclick="javascript:addNumber(4);">
+	<input type="button" class="button" id="but" value="5" onclick="javascript:addNumber(5);">
+	<input type="button" class="button" id="but" value="6" onclick="javascript:addNumber(6);">
+	<input type="button" class="button" id="but" value="-" onclick="javascript:addOperator('-');">
+</p>
+<p>
+	<input type="button" class="button" id="but" value="1" onclick="javascript:addNumber(1);">
+	<input type="button" class="button" id="but" value="2" onclick="javascript:addNumber(2);">
+	<input type="button" class="button" id="but" value="3" onclick="javascript:addNumber(3);">
+	<input type="button" class="button" id="but" value="/" onclick="javascript:addOperator('/');">
+</p>
+<p>
+	<input type="button" class="button" id="but" value="0" onclick="javascript:addNumber(0);">
+	<input type="button" class="button" id="but" value="." onclick="javascript:addNumber('.');">
+	<input type="button" class="button" id="but" value="=" onclick='javascript:e();'>
+	<input type="button" class="button" id="but" value="x" onclick="javascript:addOperator('*');">
+</p>
+
+</div>
+</div>
+</div>
+
+<script src="calcu.js" type="text/javascript" ></script>
+
+</body>
+</html>
